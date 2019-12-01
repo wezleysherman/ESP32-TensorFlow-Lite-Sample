@@ -1,2 +1,8 @@
 # ESP32-TensorFlow-Lite-Sample
-Same project for deploying TensorFlow Lite models on the ESP32 using Platformio
+Saple project for deploying TensorFlow Lite models on the ESP32 using Platformio
+
+Deploy to ESP32 using:
+```platformio run -t upload --upload-port /dev/ttyUSB0```
+
+Access Serial using:
+```screen /dev/ttyUSB0 115200```
